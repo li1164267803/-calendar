@@ -1,13 +1,15 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
-<body>
-<div id="app"></div>
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,viewport-fit=cover">
+    <title>趣课多</title>
+    <script>(function(doc,win){var scale=null;var docEl=doc.documentElement,resizeEvt='orientationchange'in window?'orientationchange':'resize',recalc=function(){var clientWidth=docEl.clientWidth,clientHeight=docEl.clientHeight;if(!clientWidth)return;if(doc.body&&scale===null){var rem=7.5;doc.body.style.width=rem+"rem";var fontSizeStr=docEl.style.fontSize;scale=(rem*fontSizeStr.substr(0,fontSizeStr.length-2))/doc.body.clientWidth;doc.body.style.width="";if(Math.abs(scale-1)<0.005){scale=1}}if(scale===null){docEl.style.fontSize=100*(clientWidth/750)+'px'}else{docEl.style.fontSize=100*(clientWidth/750)*scale+'px'}};recalc();if(!doc.addEventListener)return;win.addEventListener(resizeEvt,recalc,false);doc.addEventListener('DOMContentLoaded',recalc,false)})(document,window);</script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <!-- 入口动态加载，防止html被运营商缓存 -->
+    <script>document.write("<script src='/static/entry.js?t=" + new Date().getTime() + "'><\/script>");</script>
+  </body>
 </html>

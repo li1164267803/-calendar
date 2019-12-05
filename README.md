@@ -1,8 +1,5 @@
 # 左右滑动无限加载周日历
 
-# 访问地址
-http://aa.mmys.fun/
-
 > A Vue.js project
 # 网上难寻的基于Vue的滑动日历
 
@@ -14,6 +11,8 @@ http://aa.mmys.fun/
 3、右滑动加载下一周的日历
 
 4、用三个ul完成了无限加载日历
+
+5、文件rili 为固定的星期，日历滚动，显示当前日期前5周，与后四周
 
 
 ## Build Setup
