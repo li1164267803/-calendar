@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "moment": "^2.24.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "sass": "^1.23.7",
     "sass-loader": "^8.0.0",
     "swiper": "^4.5.0",
